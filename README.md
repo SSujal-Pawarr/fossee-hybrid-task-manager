@@ -30,6 +30,8 @@ Both interfaces share the **same React frontend** and communicate with a **Djang
 ---
 
 ## 🧱 Project Structure
+
+```text
 fossee-hybrid-task-manager/
 │
 ├── backend/                     # Django backend
@@ -55,4 +57,3 @@ fossee-hybrid-task-manager/
 │   └── api.png
 │
 └── README.md                    # Project documentation
-
