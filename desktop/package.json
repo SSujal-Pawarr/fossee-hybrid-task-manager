@@ -1,0 +1,15 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Desktop wrapper for Hybrid Task Manager (Django + React)",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["electron", "react", "django", "hybrid"],
+  "author": "FOSSEE Internship Applicant",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.0.0"
+  }
+}
