@@ -30,3 +30,29 @@ Both interfaces share the **same React frontend** and communicate with a **Djang
 ---
 
 ## 🧱 Project Structure
+fossee-hybrid-task-manager/
+│
+├── backend/                     # Django backend
+│   ├── server/                  # Django project settings
+│   ├── tasks/                   # Tasks app (models, views, serializers)
+│   ├── db.sqlite3               # SQLite database
+│   └── manage.py
+│
+├── frontend/                    # React frontend (Web app)
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── package-lock.json
+│
+├── desktop/                     # Electron desktop wrapper
+│   ├── index.js                 # Electron main process
+│   ├── package.json
+│   └── package-lock.json
+│
+├── screenshots/                 # Submission screenshots
+│   ├── web.png
+│   ├── desktop.png
+│   └── api.png
+│
+└── README.md                    # Project documentation
+
